@@ -1,4 +1,4 @@
-name: 5 mins once
+name: 5 minutes once
 
 on:
   # Triggers the workflow every 5 minutes
