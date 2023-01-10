@@ -1,4 +1,4 @@
-name: First Cron Job
+name: 5 mins once
 
 on:
   # Triggers the workflow every 5 minutes
