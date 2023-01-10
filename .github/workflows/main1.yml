@@ -6,7 +6,7 @@ name: First Cron Job 1
 on:
   # Triggers the workflow every 5 minutes
   schedule:
-    - cron: "*/1 * * * *"
+    - cron: "53 * * * *"
 
      # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -19,4 +19,4 @@ jobs:
     steps:
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: echo Hello, world!
+        run: date +"%T"
