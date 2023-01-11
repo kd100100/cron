@@ -1,0 +1,24 @@
+{
+  "name": "cron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "hello": "node hello.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kd100100/cron.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kd100100/cron/issues"
+  },
+  "homepage": "https://github.com/kd100100/cron#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
