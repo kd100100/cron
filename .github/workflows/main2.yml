@@ -1,0 +1,14 @@
+name: At 02.30 everyday 
+
+on:
+  # Triggers the workflow every 5 minutes
+  schedule:
+    - cron: "30 2 * * *"
+
+jobs:
+  cron:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Run a one-line script
+        run: date +"%T"
