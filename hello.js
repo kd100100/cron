@@ -2,4 +2,8 @@ const dotenv = require("dotenv");
 
 dotenv.config();
 
-console.log("hello:", process.env.VARIABLE);
+const x = process.env.VARIABLE
+
+const y = x+10
+
+console.log("hello:", y);
